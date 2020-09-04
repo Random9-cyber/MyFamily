@@ -9,25 +9,25 @@ document.addEventListener("scroll", () => {
 
     // if (pagePositionY == 381.6000061035156)
     //     Caixa.append("oi");
-    Caixa.innerHTML = parseInt(PositionY)
+    // Caixa.innerHTML = parseInt(PositionY)
 
-    if (PositionY <= 400) {
+    if (PositionY <= 948) {
         Caixa.innerHTML = "Meu pai";
     } else {
         Caixa.innerHTML = "Minha mãe ";
     }
 
-    if (PositionY >= 932) {
+    if (PositionY >= 1907) {
         Caixa.innerHTML = "Meu irmão";
     }
 
-    if (PositionY >= 1441) {
+    if (PositionY >= 2792) {
         Caixa.innerHTML = "Eu";
     }
 
-    // if (PositionY == 0) {
-    //     Caixa.innerHTML = "Uma BREVE biografia da minha familia:";
-    // }
+    if (PositionY == 0) {
+        Caixa.innerHTML = "Uma BREVE biografia da minha familia:";
+    }
 
     // /    switch (window.pageYOffset) {
     //         case 400:

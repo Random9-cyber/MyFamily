@@ -16,6 +16,7 @@
         float: left;
         margin-left: 15%;
         position: fixed;
+        font-size: 150%;
         margin-top: -70px;
     }
     h2#Pai {
@@ -84,13 +85,13 @@
         margin-top: 20%;
     }
     div#Mae {
-        margin-top: -10%;
+        margin-top: 25%;
     }
     div#Irmao {
-        margin-top: -10%;
+        margin-top: 29%;
     }
     div#Eu {
-        margin-top: -10%;
+        margin-top: 25%;
     }
     img#Pai {
         margin-left: 52%;
